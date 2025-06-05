@@ -18,7 +18,7 @@ export default function Home() {
     if (currentCity) {
       const fetchData = async () => {
         const res = await fetch(
-          `${process.env.REACT_APP_API_URL}/weather/${currentCity}?units=${unit}`
+          `${process.env.REACT_APP_API_URL}weather/${currentCity}?units=${unit}`
         );
         const data = await res.json();
         setWeather(data);
