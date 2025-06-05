@@ -7,6 +7,7 @@ export default function Footer() {
       <a className={styles.link} href="https://github.com/owl099/weather-app">
         Source Code on Github
       </a>
+      
     </footer>
   );
 }
